@@ -16,7 +16,7 @@ consoleQuest/
 
 3. Add a `.gitignore` file before you commit.
 4. `.gitignore` tells Git what to leave out, like build files, temp files etc
-5. For a C# app, a simple `.gitignore` should ignore things like `bin/`, `obj/`, and `.vs/`.
+5. For a C# app, a simple `.gitignore` should ignore things like `bin/`, `obj/`, and `.vs/`. For C# you may see refacts so make sure that is in there too.
 
 ```gitignore
 bin/
