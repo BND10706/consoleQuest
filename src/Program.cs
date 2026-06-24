@@ -35,7 +35,7 @@ string Hat = Console.ReadLine();
     if (Hat.ToUpper() == "Y")
     {
         Console.WriteLine("You now have " + (0 + 2) + " gold pieces!");
-        gold =+ 2;
+        gold += 2;
     }
     else
     {
