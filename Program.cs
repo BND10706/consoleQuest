@@ -1,5 +1,4 @@
-﻿@ -0,0 +1,46 @@
-Console.WriteLine("Welcome to consoleQuest");
+﻿Console.WriteLine("Welcome to consoleQuest");
 Console.WriteLine("In this app you will pick two numbers and I will add them together");
 Console.WriteLine("What is your name?");
 string name = Console.ReadLine();
@@ -33,15 +32,15 @@ Console.WriteLine("Type help, add, or quit");
 Console.WriteLine("2 + 2 = " + (2 + 2));
 Console.WriteLine("Would you like to sell your hat for 2 gold pieces? Type 'y' for yes or 'n' for no. ");
 string Hat = Console.ReadLine();
-    if (Hat.ToUpper() == "Y")
-    {
-        Console.WriteLine("You now have " + (0 + 2) + " gold pieces!");
-        gold =+ 2;
-    }
-    else
-    {
-        Console.WriteLine("No problem, I hope you have a nice day!");
-    }
+if (Hat.ToUpper() == "Y")
+{
+    Console.WriteLine("You now have " + (0 + 2) + " gold pieces!");
+    gold = +2;
+}
+else
+{
+    Console.WriteLine("No problem, I hope you have a nice day!");
+}
 Console.WriteLine($"Health: {health}");
 Console.WriteLine($"Gold: {gold}");
 Console.WriteLine($"Stamina: {stamina}");
